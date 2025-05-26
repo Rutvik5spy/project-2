@@ -77,6 +77,9 @@ body{
     margin-right: 100px; 
     margin-top: 20px;
 }
+.list1{
+    margin: auto;
+}
 .cards ul{
     list-style-type: none; 
     display: flex;
@@ -117,29 +120,44 @@ body{
     padding-top: 10px;
     padding-bottom: 10px;
 }
+.foot [type="email"]{
+    width: 1000px;
+    height: 30px;
+    border: #e2e3e5;
+    
+}
+.foot [type="submit"]{
+    height: 30px;
+    border: #e2e3e5;
+    background-color: white;
+}
 .footer{
     background-color: #e2e3e5;
+    height: 100px;
+    padding-top: 0px;
+    position: relative;
+     
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.list1{
-    margin: auto;
+.footer ul{
+    list-style-type: none; 
+    display: flex; 
+    margin: 0px 150px 0px 150px;
+    padding: 0px;
 }
 .list2{
-      margin: auto;
+    padding-left: 80px;
+    padding-right: 30px;
 }
+.footer1{
+    display: flex;
+    margin: 0px 150px 0px 150px; 
+    position: absolute;  
+    top: 555%;
+   
+}
+.footer1-1{
+    
+
+}
+
 
