@@ -80,6 +80,10 @@ body{
 .list1{
     margin: auto;
 }
+.list1 :hover{
+    transform: scale(1.03,1.03);
+   
+}
 .cards ul{
     list-style-type: none; 
     display: flex;
@@ -150,14 +154,49 @@ body{
 }
 .footer1{
     display: flex;
-    margin: 0px 150px 0px 150px; 
+    margin: 0px; 
     position: absolute;  
-    top: 555%;
-   
+    top: 529%;
+    background-color: #e2e3e5;
+    width: 1520px;
 }
 .footer1-1{
     
-
 }
+.footer1-1-a{
+   margin-left: 190px ;
+   margin-right: 103px;
+}
+.footer1-1-a li{
+    padding-bottom: 10px;
+    font-weight: 530;
+}
+.footer1-1-b{
+    margin-right: 140px;
+}
+.footer1-1-b li{
+    padding-bottom: 10px;
+    font-weight: 530;
+}
+.footer1-1-c{
+    margin-right: 3px;
+}
+.footer1-1-c li{
+    padding-bottom: 10px;
+    font-weight: 530;
+}
+.footer1-1-d{
+    margin-right: 157px;
+}
+.footer1-1-d li{
+    padding-bottom: 10px;
+    font-weight: 530;
+}
+.footer1-1-e li{
+    padding-bottom: 10px;
+    font-weight: 530;
+}
+
+
 
 

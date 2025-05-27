@@ -1,0 +1,54 @@
+body{
+    background-color: #F5F5F5;
+}
+#div1{
+     width: 450px;
+     height: 350px;
+     border: 1px white solid;
+     margin: 200px 550px 0px 550px;
+     background-color: white;
+     border-radius: 10px;
+    
+}
+#div1:hover{
+    transform: scale(1.1,1.1);
+}
+h2{
+    text-align: center;
+    font-weight: bolder;
+    padding-top: 30px;
+}
+h3{
+    padding-left: 20px;
+    margin-bottom: -5px;
+}
+p{  
+    padding-left: 20px;
+}
+
+.input1{
+    padding-left: 20px;
+    
+}
+[type="email"]{
+     width: 400px;
+     height: 40px;
+     padding-left: 10px;
+}
+.input2{
+    padding-left: 20px;
+    padding-bottom: 25px;
+}
+[type="submit"]{
+     width: 415px;
+     height: 40px;
+     background-color: black;
+     color: white;
+}
+a{
+    padding-left: 20px;
+    color: black;
+}
+a:link{
+    text-decoration: none;
+}
