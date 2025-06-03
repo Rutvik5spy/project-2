@@ -1,0 +1,103 @@
+body{
+    margin: 0px;
+}
+ .roboto {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+}
+#head{
+    display: flex;
+    background-color: white;
+   
+}
+#head h1{
+      margin-left: 150px; 
+      margin-right: 20px; 
+}
+[type="search"]{
+    margin-top: 20px;
+    width: 640px;
+    height: 45px;
+    border-radius:10px; 
+}
+#head div{
+    margin-left: 170px;
+    margin-top: 20px;
+}
+#head i{
+    margin-top:5px;
+    font-size: 2em;
+    padding-left: 20px;
+
+}
+#head a:visited{
+    color: black;
+}
+#head a:hover{
+    color: red
+}
+.header{
+    background-color: #e2e3e5;
+}
+.header ul{
+    list-style-type: none; 
+    display: flex; 
+    margin-top: 0px; 
+    margin-bottom:0px; 
+    height: 50px;
+    padding-right: 170px;
+    padding-left: 170px;
+}
+.header a:link{
+    text-decoration: none;
+}
+.header a:visited{
+    color: black;
+}
+.list{
+         margin: auto;
+}
+.header1{
+    background-color: #f1f1f1ff;
+   
+}
+.header1 ul{
+    list-style-type: none; 
+    display: flex; 
+    margin-top: 0px; 
+    margin-bottom:0px; 
+    height: 30px;
+    padding-right: 170px;
+    padding-left: 170px;
+}
+.header1 li{
+    padding-top: 8px;
+    font-size: small;
+}
+#space{
+    margin-right:950px;
+}
+.cards{
+    margin-left: 100px; 
+    margin-right: 100px; 
+    margin-top: 20px;
+}
+.list1{
+    margin: auto;
+}
+.list1 :hover{
+    transform: scale(1.03,1.03);
+   
+}
+.cards ul{
+    list-style-type: none; 
+    display: flex;
+}
+.productName1{
+    margin-top: 0px; 
+    margin-bottom: 0px;
+}
+.price{
+    margin-top: 5px;
+}
