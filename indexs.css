@@ -5,7 +5,6 @@ body{
   font-family: "Roboto", sans-serif;
   font-optical-sizing: auto;
   font-weight: 800;
-  
 }
 #head{
     display: flex;
@@ -17,6 +16,7 @@ body{
       margin-right: 20px; 
 }
 [type="search"]{
+    padding-left: 20px;
     margin-top: 20px;
     width: 640px;
     height: 45px;

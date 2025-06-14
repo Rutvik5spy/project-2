@@ -11,16 +11,19 @@ body{
     background-color: white;
    
 }
-#head h1{
+#head h2{
+    margin-top: 20px;
       margin-left: 150px; 
       margin-right: 20px; 
 }
 [type="search"]{
     padding-left: 20px;
+    font-size: small;
     margin-top: 20px;
     width: 640px;
     height: 45px;
     border-radius:10px; 
+
 }
 #head div{
     margin-left: 170px;
@@ -39,6 +42,7 @@ body{
     color: red
 }
 .header{
+    margin-top: 15px;
     background-color: #e2e3e5;
 }
 .header ul{
@@ -66,39 +70,44 @@ body{
 .header1 ul{
     list-style-type: none; 
     display: flex; 
+    font-weight: 500;
     margin-top: 0px; 
     margin-bottom:0px; 
-    height: 30px;
+    height: 25px;
+    
     padding-right: 170px;
     padding-left: 170px;
 }
 .header1 li{
-    padding-top: 8px;
+    padding-top: 4px;
     font-size: small;
+}
+.header1 a:link{
+    text-decoration: none;
+}
+.header1 a:visited{
+    color: black;
 }
 #space{
     margin-right:950px;
 }
-.cards{
-    margin-left: 100px; 
-    margin-right: 100px; 
-    margin-top: 20px;
+.BOX1{
+    height: 150px;
+    width: 600px;
+    background-color: #eeeeee;
+    border-radius: 5px;
 }
-.list1{
-    margin: auto;
-}
-.list1 :hover{
-    transform: scale(1.03,1.03);
-   
-}
-.cards ul{
-    list-style-type: none; 
-    display: flex;
-}
-.productName1{
-    margin-top: 0px; 
-    margin-bottom: 0px;
-}
-.price{
+.but{
+    margin-left: 12px ;
     margin-top: 5px;
+    width: 55px;
+    border-radius: 5px;
+    background-color: white;
+   margin-bottom: 10px;
+}
+.but1{
+    border-radius: 5px;
+    background-color: white;
+    width: 580px;
+    margin-bottom: 10px;
 }
